@@ -6,11 +6,11 @@
 
 ### Work on the Current Change
 * **`add`** — Add file contents to the index
-* **`mv`** — Move or rename a file, a directory, or a symlink
+* **`mv`** — Move or rename a file, a directory, or a symlink     
 * **`restore`** — Restore working tree files
 * **`rm`** — Remove files from the working tree and from the index
 
-### Examine the History and State
+
 * **`bisect`** — Use binary search to find the commit that introduced a bug
 * **`diff`** — Show changes between commits, commit and working tree, etc
 * **`grep`** — Print lines matching a pattern
@@ -31,7 +31,7 @@
 ### Collaborate
 * **`fetch`** — Download objects and refs from another repository
 * **`pull`** — Fetch from and integrate with another repository or a local branch
-* **`push`** — Update remote refs along with associated objects
+* **`push`** — Update remot### Examine the History and Statee refs along with associated objects
 
 ---
 *Above you see all common Git commands .*  
