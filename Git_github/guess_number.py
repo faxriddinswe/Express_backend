@@ -7,5 +7,3 @@ if n == guess:
     print("you fint it")
 else:
     print("You didnt find it it")
-
-
