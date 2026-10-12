@@ -6,4 +6,4 @@ guess = int(input("Guess a number between 0 and 10: "))
 if n == guess:
     print("you fint it")
 else:
-    print("You didnt find it it")
+    print("You didnt find it it cmon bro")

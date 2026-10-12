@@ -34,4 +34,4 @@
 * **`push`** — Update remote refs along with associated objects
 
 ---
-*Above you see all common Git commands.*  
+*Above you see all common Git commands .*  
