@@ -8,7 +8,7 @@
 
 ### Yangi databse yaratish
 
-CREATE DATABASE <name>;
+CREATE DATABASE new_database_name;
 
 
 
