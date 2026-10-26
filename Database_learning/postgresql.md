@@ -48,3 +48,66 @@ n
 24.	\c -> connects to a specific database
 
 25.	\d -> lists all tables or describes the structure of a specific table
+
+# Malumot turlari
+
+## 1. Text - 3xil
+
+Varchar - limit bolganda ishlatiladi varchar(10)
+
+TEXT -> limit bo'lmaganda ishlatiladi - men 1994 yilda tug'ilganman limit yoq bolganmanda ishlatish kerak 
+
+CHAR -> Varchar bilan bir xil lekin farqi berilgan uzunlikda joy oladi 
+misol CHAR(10) 'kitob    ' -> kitob sozi 5 ta harfdan iborat lekin 10 deganimiz uchun qoshimcha space oladi 
+
+## 2. Integer - 3 xil 
+
+1 INT -> -2,147,483,648 dan 2,147,483,648 bolgan sonlarni saqlash uchun mlr
+
+2 SMALLINT -> -32, 768 dana 32, 768 gacha sonlarni saqlash uchun 
+
+3.BIGINT -9223372036854775808 dan 9223372036854775808 gacha saqlash mumkin
+
+### Serial - > 
+
+Int bilan bir xil lekin postgresql ning qiymatlarini avtomatik ravishda toldirib boradi 
+MYSQL Da esa buni equvalenti AUTOINCREMENT
+
+SMALLINT, SERIAL , BIGSERIAL
+
+## Numeric
+
+Misol uchun 123.45
+
+Numeric(5,2): 123.45  -> qavs ichidagi 5 soni bu umuiy 5 ta raqamdan iborat va nuqtadan keyin 2 ta son borlihini bildiradi 
+
+Numeric(5): 12345 - birinchi argument berilgan bunda nuqtani 0 deb qabul qiladi postgresql
+
+Numeric: 1234
+
+## Floating Numbers
+
+Hisob kitob qilish shart bolmasa 
+
+REAL (4 bytes)
+DOUBLE PRECISION (8 )
+
+ishlatish mumkin 
+
+Agar hisob kitob qilsih shart bolsa Numeric ishlatish kerak boladi 
+
+## Boolean TRUE or FALSE
+
+is_married BOOLEAN
+
+## Vaqt malumot turlari 
+
+DATE -sanalar uchun 2021-10-12
+
+TIME - vaqt uchun 10:25:19
+
+TIMESTAMP - ham sana ham vaqt ishlatish uchun 2021-10-12 10:25:19
+
+
+
+
